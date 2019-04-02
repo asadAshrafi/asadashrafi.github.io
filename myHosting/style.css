@@ -81,7 +81,7 @@ body{
 /*--footer--*/	
 
 .footer{
-	
+	height:100%;
 	position:relative;
 	background-position:center;
 	background-size:cover;
