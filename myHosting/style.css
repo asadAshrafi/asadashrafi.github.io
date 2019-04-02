@@ -1,0 +1,145 @@
+
+
+body{
+	overflow-x:hidden;
+	color:#505962;
+	}
+	
+/*---Navigation---*/
+.navbar{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  background:rgba(0,0,0,0.6)!important;
+}
+.navbar-brand img{
+  height: 2rem;
+}
+.navbar-nav li{
+  padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: white;
+  padding-top: .8rem;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:#1ebba3; 
+}
+	
+	
+	
+/*--slider--*/
+.carousel-item{
+	height:100vh;
+	}
+.carousel-caption{
+	position:absolute;
+	top:38%;
+	text-transform:uppercase;
+	width:100%;
+	right:0;
+	left:0;
+	}
+
+.carousel-caption h1{
+  font-family:inherit;
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+.carousel-caption h3{
+  font-style: 2rem;
+  text-shadow: .1rem .1rem .5rem black;
+  padding-bottom: 1.6rem;
+}
+.btn-lg{
+  border-width: 1px;
+  border-radius: 0;
+  padding: .6rem 1.3rem;
+  font-size: 1.1rem;
+  letter-spacing:7px;
+}
+
+/*--jumbotron--*/
+.heading-underline{
+	
+	height:3px;
+	background-color:#3CC;
+	width:13.2rem;
+	margin:0 auto;
+	}
+	
+.card-header{
+	letter-spacing:5px;
+	}	
+	
+	
+/*--footer--*/	
+
+.footer{
+	height:25rem;
+	position:relative;
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-image:url(img/computers-4.jpg);
+	padding-left:0;
+	padding-right:0;
+	}
+	
+.inner-div{
+	height:inherit;
+	width:inherit;
+	background-color:#00000070;
+	}	
+	
+.footer .row .container h1{
+	margin-top:9rem;
+	color:white;
+	}
+	
+
+	
+/*--Media Queries--*/
+
+@media(max-width:767px){
+	
+	.carousel-caption h1{
+ 		 font-size: 2.3rem;
+  		 letter-spacing: .15rem;
+  		 padding-bottom: .5rem;
+		}
+	.carousel-caption h3{
+  		font-style: 1.2rem;
+  		padding-bottom: 1.2rem;
+		}
+	.btn-lg{
+  		font-size: 1rem;
+		}
+	
+	}
+
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
